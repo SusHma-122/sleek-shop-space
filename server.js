@@ -1,0 +1,10 @@
+const authRoutes = require('./routes/auth');
+app.use('/api/auth', authRoutes);
+const productRoutes = require('./routes/products');
+app.use('/api/products', productRoutes);
+const cartRoutes = require('./routes/cart');
+app.use('/api/cart', cartRoutes);
+const orderRoutes = require('./routes/orders');
+app.use('/api/orders', orderRoutes);
+const assistantRoutes = require('./routes/assistant');
+app.use('/api/assistant', assistantRoutes); 
